@@ -1,0 +1,4 @@
+{
+  "ioa_tls_private_www.kuipmake.tech":"/etc/ioa_certs/privkey.pem",
+  "ioa_tls_public_www.kuipmake.tech":"/etc/ioa_certs/cert.pem"
+}

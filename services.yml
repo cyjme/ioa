@@ -1,0 +1,22 @@
+services:
+  - id: user
+    uri: http://localhost:9992
+    qps: 10000
+
+  - id: blog
+    qps: 5000
+    loadBlanceType: weightRobin
+    backends:
+      - id: blog-1
+        uri: http://localhost:9992
+        qps: 1000
+        weight: 1
+      - id: blog-2
+        uri: http://localhost:10000
+        qps: 2000
+        weight: 2
+      - id: blog-3
+        uri: http://localhost:10001
+        qps: 2000
+        weight: 3 
+

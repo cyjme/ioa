@@ -1,0 +1,25 @@
+addr: "0.0.0.0:8000"
+filter_plugin_dir: ""
+predicate_plugin_dir: ""
+
+config_reader_type: "yaml"
+config_reader_arg: "./config.yml"
+
+routes_reader_type: "yaml"
+routes_reader_arg: "./routes.yml"
+
+services_reader_type: "yaml"
+services_reader_arg: "./services.yml"
+
+max_idle_conns: 40000
+max_idle_conns_per_host: 20000
+
+access_log_file: "./access.log"
+enable_https: false
+
+admin_domain: "0.0.0.0"
+admin_port: "9000"
+
+admin_name: "admin"
+admin_pass: "admin"
+

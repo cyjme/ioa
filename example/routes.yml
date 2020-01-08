@@ -1,0 +1,45 @@
+globalFilters:
+  - KuipAuth=optional
+
+routes:
+  - id: crud-user
+    uri: http://localhost:9992/ping
+    order: 1000
+    predicates:
+      - Method=POST,GET
+      - Host=ioa.letsgo.tech
+      - Path=/users/:userId/:type
+    filters:
+      - RequestSize=10000
+
+  - id: crud-blog
+    uri: http://blog-backend.letsgo.tech
+    order: 100
+    predicates:
+      - Host=blog.letsgo.tech
+      - Path=/blog
+      - Method=POST,GET
+    filters:
+      - RequestSize=10000
+
+  - id: breaker
+    uri: http://localhost:9992/ping
+    order: 10000
+    predicates:
+      - Path=/breaker
+    filters:
+      - Breaker=
+
+  - id: rateLimit
+    uri: http://localhost:9992/ping
+    order: 10000
+    predicates:
+      - Path=/rateLimit
+    filters:
+      - RateLimit=burst:5,limit:10
+
+  - id: lb
+    uri: lb://blog
+    order: 10000
+    predicates:
+      - Path=/lb
