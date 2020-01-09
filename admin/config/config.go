@@ -1,7 +1,7 @@
 package config
 
 import (
-	"ioa/proxy"
+	"github.com/cyjme/ioa/proxy"
 )
 
 

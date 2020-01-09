@@ -10,12 +10,12 @@ import (
 	"strings"
 	"sync"
 
-	"ioa/config"
-	"ioa/context"
-	"ioa/filters/default/routeToRequestUrl"
-	"ioa/plugin"
-	"ioa/route"
-	"ioa/service"
+	"github.com/cyjme/ioa/config"
+	"github.com/cyjme/ioa/context"
+	"github.com/cyjme/ioa/filters/default/routeToRequestUrl"
+	"github.com/cyjme/ioa/plugin"
+	"github.com/cyjme/ioa/route"
+	"github.com/cyjme/ioa/service"
 
 	"github.com/sirupsen/logrus"
 )

@@ -1,7 +1,7 @@
 package removeResponseHeader
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 )
 
 type filter struct {

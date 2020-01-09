@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"ioa/admin/pkg/errno"
+	"github.com/cyjme/ioa/admin/pkg/errno"
 
 	"github.com/sirupsen/logrus"
 )

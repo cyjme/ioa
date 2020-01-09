@@ -1,7 +1,7 @@
 package setPath
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"strings"
 )
 

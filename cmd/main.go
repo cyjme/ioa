@@ -11,10 +11,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"ioa/proxy"
+	"github.com/cyjme/ioa/proxy"
 
-	adminConfig "ioa/admin/config"
-	adminRouter "ioa/admin/router"
+	adminConfig "github.com/cyjme/ioa/admin/config"
+	adminRouter "github.com/cyjme/ioa/admin/router"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

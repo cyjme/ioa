@@ -1,7 +1,7 @@
 package removeRequestHeader
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 )
 
 type filter struct {

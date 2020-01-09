@@ -1,7 +1,7 @@
 package header
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"regexp"
 	"strings"
 )

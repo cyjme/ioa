@@ -2,7 +2,7 @@ package rateLimit
 
 import (
 	"fmt"
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"strconv"
 	"strings"
 

@@ -1,7 +1,7 @@
 package kuipAuth
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 
 	"errors"
 	"log"

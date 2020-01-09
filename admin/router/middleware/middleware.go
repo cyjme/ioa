@@ -3,9 +3,9 @@ package middleware
 import (
 	"net/http"
 
-	"ioa/admin/config"
-	"ioa/admin/handler"
-	"ioa/admin/pkg/errno"
+	"github.com/cyjme/ioa/admin/config"
+	"github.com/cyjme/ioa/admin/handler"
+	"github.com/cyjme/ioa/admin/pkg/errno"
 
 	"github.com/sirupsen/logrus"
 )

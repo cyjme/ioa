@@ -2,7 +2,7 @@ package service
 
 import (
 	"errors"
-	"ioa/pkg/roundRobin"
+	"github.com/cyjme/ioa/pkg/roundRobin"
 
 	"github.com/sirupsen/logrus"
 )

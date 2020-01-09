@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"ioa/admin/config"
-	"ioa/admin/handler/route"
-	"ioa/admin/handler/service"
-	"ioa/admin/handler/user"
-	"ioa/admin/router/middleware"
+	"github.com/cyjme/ioa/admin/config"
+	"github.com/cyjme/ioa/admin/handler/route"
+	"github.com/cyjme/ioa/admin/handler/service"
+	"github.com/cyjme/ioa/admin/handler/user"
+	"github.com/cyjme/ioa/admin/router/middleware"
 
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"

@@ -1,7 +1,7 @@
 package method
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"strings"
 )
 

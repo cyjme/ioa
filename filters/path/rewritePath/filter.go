@@ -2,7 +2,7 @@ package rewritePath
 
 import (
 	"errors"
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"regexp"
 	"strings"
 )

@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"ioa/admin/config"
-	"ioa/admin/handler"
-	"ioa/admin/pkg/errno"
-	"ioa/route"
+	"github.com/cyjme/ioa/admin/config"
+	"github.com/cyjme/ioa/admin/handler"
+	"github.com/cyjme/ioa/admin/pkg/errno"
+	"github.com/cyjme/ioa/route"
 
 	"github.com/sirupsen/logrus"
 )

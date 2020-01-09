@@ -3,7 +3,7 @@ package plugin
 import (
 	"errors"
 	"io/ioutil"
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"plugin"
 
 	"github.com/sirupsen/logrus"

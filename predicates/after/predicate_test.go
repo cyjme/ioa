@@ -1,7 +1,7 @@
 package after
 
 import (
-	"ioa/context"
+	"github.com/cyjme/ioa/context"
 	"testing"
 	"time"
 )
